@@ -1,3 +1,35 @@
-body{
-    
-}
+.backgroundImage {
+    background-image: url("https://images.stockcake.com/public/4/9/8/4989e865-6692-4217-81ef-57670c537bfa_large/coding-workstation-glow-stockcake.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    text-align: center; 
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    background-color: lightgray; 
+    padding: 10px 0; 
+    margin-top: 20px; 
+    flex-direction: space-around;
+  }
+  
+  .footer a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .btn-primary {
+    background-color: #6f42c1; 
+    border-color: #6f42c1; 
+  }
+  
